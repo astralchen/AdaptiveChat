@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	"classes" = {
+	};
+	"objectVersion" = "56";
+	"archiveVersion" = "1";
+	"objects" = {
+		"000000000000000000000006" = {
+			"path" = "AdaptiveChat.app";
+			"isa" = "PBXFileReference";
+			"includeInIndex" = "0";
+			"explicitFileType" = "wrapper.application";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"0000000000000000000000CF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "00000000000000000000006B";
+		};
+		"000000000000000000000068" = {
+			"path" = "ChatDetailViewModel.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"00000000000000000000000A" = {
+			"isa" = "XCConfigurationList";
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+			"buildConfigurations" = (
+				"00000000000000000000000C",
+				"00000000000000000000000D",
+			);
+		};
+		"0000000000000000000000CE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "00000000000000000000006A";
+		};
+		"00000000000000000000006C" = {
+			"path" = "ChatListViewController.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"0000000000000000000000C9" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "000000000000000000000065";
+		};
+		"000000000000000000000067" = {
+			"path" = "ChatStore.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"000000000000000000000005" = {
+			"buildConfigurationList" = "00000000000000000000000B";
+			"productReference" = "000000000000000000000006";
+			"productType" = "com.apple.product-type.application";
+			"productName" = "AdaptiveChat";
+			"isa" = "PBXNativeTarget";
+			"buildPhases" = (
+				"000000000000000000000007",
+				"000000000000000000000008",
+				"000000000000000000000009",
+			);
+			"dependencies" = (
+			);
+			"name" = "AdaptiveChat";
+			"buildRules" = (
+			);
+		};
+		"0000000000000000000000D0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "00000000000000000000006C";
+		};
+		"00000000000000000000000F" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"MARKETING_VERSION" = "1.0";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
+				"INFOPLIST_FILE" = "AdaptiveChat/Info.plist";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.example.AdaptiveChat";
+				"SUPPORTS_MACCATALYST" = "NO";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+			};
+			"name" = "Release";
+		};
+		"000000000000000000000004" = {
+			"isa" = "PBXGroup";
+			"name" = "Products";
+			"children" = (
+				"000000000000000000000006",
+			);
+			"sourceTree" = "<group>";
+		};
+		"00000000000000000000006B" = {
+			"path" = "ChatDetailViewController.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"0000000000000000000000CD" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "000000000000000000000069";
+		};
+		"000000000000000000000066" = {
+			"path" = "Conversation.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"0000000000000000000000C8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "000000000000000000000064";
+		};
+		"00000000000000000000000E" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"MARKETING_VERSION" = "1.0";
+				"LD_RUNPATH_SEARCH_PATHS" = "$(inherited) @executable_path/Frameworks";
+				"INFOPLIST_FILE" = "AdaptiveChat/Info.plist";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.example.AdaptiveChat";
+				"SUPPORTS_MACCATALYST" = "NO";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+			};
+			"name" = "Debug";
+		};
+		"000000000000000000000009" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"000000000000000000000003" = {
+			"path" = "AdaptiveChat";
+			"isa" = "PBXGroup";
+			"children" = (
+				"0000000000000000000001F4",
+				"0000000000000000000001F5",
+				"0000000000000000000001F6",
+				"0000000000000000000001F7",
+				"0000000000000000000001F8",
+				"0000000000000000000001F9",
+			);
+			"sourceTree" = "<group>";
+		};
+		"00000000000000000000006A" = {
+			"path" = "AppTabBarController.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"0000000000000000000000CC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "000000000000000000000068";
+		};
+		"000000000000000000000065" = {
+			"path" = "ChatCoordinator.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"00000000000000000000000D" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "15.0";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"SWIFT_VERSION" = "5.0";
+				"SDKROOT" = "iphoneos";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+			};
+			"name" = "Release";
+		};
+		"000000000000000000000008" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"000000000000000000000002" = {
+			"isa" = "PBXGroup";
+			"sourceTree" = "<group>";
+			"children" = (
+				"000000000000000000000003",
+				"000000000000000000000004",
+			);
+		};
+		"0000000000000000000000CB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "000000000000000000000067";
+		};
+		"000000000000000000000064" = {
+			"path" = "AppDelegate.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"00000000000000000000000C" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "15.0";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"SWIFT_VERSION" = "5.0";
+				"SDKROOT" = "iphoneos";
+				"ENABLE_TESTABILITY" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"000000000000000000000007" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"0000000000000000000000C8",
+				"0000000000000000000000C9",
+				"0000000000000000000000CA",
+				"0000000000000000000000CB",
+				"0000000000000000000000CC",
+				"0000000000000000000000CD",
+				"0000000000000000000000CE",
+				"0000000000000000000000CF",
+				"0000000000000000000000D0",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"000000000000000000000001" = {
+			"buildConfigurationList" = "00000000000000000000000A";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"knownRegions" = (
+				"en",
+				"Base",
+				"zh-Hans",
+			);
+			"isa" = "PBXProject";
+			"compatibilityVersion" = "Xcode 14.0";
+			"productRefGroup" = "000000000000000000000004";
+			"mainGroup" = "000000000000000000000002";
+			"developmentRegion" = "en";
+			"attributes" = {
+				"LastUpgradeCheck" = "1600";
+			};
+			"targets" = (
+				"000000000000000000000005",
+			);
+		};
+		"0000000000000000000000CA" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "000000000000000000000066";
+		};
+		"000000000000000000000069" = {
+			"path" = "ChatListViewModel.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"00000000000000000000000B" = {
+			"isa" = "XCConfigurationList";
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+			"buildConfigurations" = (
+				"00000000000000000000000E",
+				"00000000000000000000000F",
+			);
+		};
+		"0000000000000000000001F4" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"000000000000000000000064",
+			);
+			"path" = "App";
+			"sourceTree" = "<group>";
+		};
+		"0000000000000000000001F5" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"000000000000000000000065",
+			);
+			"path" = "Coordinators";
+			"sourceTree" = "<group>";
+		};
+		"0000000000000000000001F6" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"000000000000000000000066",
+			);
+			"path" = "Models";
+			"sourceTree" = "<group>";
+		};
+		"0000000000000000000001F7" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"000000000000000000000067",
+			);
+			"path" = "Services";
+			"sourceTree" = "<group>";
+		};
+		"0000000000000000000001F8" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"000000000000000000000068",
+				"000000000000000000000069",
+			);
+			"path" = "ViewModels";
+			"sourceTree" = "<group>";
+		};
+		"0000000000000000000001F9" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"00000000000000000000006A",
+				"00000000000000000000006B",
+				"00000000000000000000006C",
+			);
+			"path" = "Views";
+			"sourceTree" = "<group>";
+		};
+	};
+	"rootObject" = "000000000000000000000001";
+}
